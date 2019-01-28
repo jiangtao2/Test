@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjdp2p.mapper.UserMapper">
+	<!-- 查询所有用户 -->
+	<select id="getUserAll" resultType="user">
+		SELECT id,`name` from `user`;
+	</select>
+	<!-- 根据用户编号删除用户 -->
+	<delete id="removeById" parameterType="int">
+		DELETE from `user` where id = #{id};
+	</delete>
+	<!-- 增加用户 -->
+	<insert id="insertUser" parameterType="user">
+		insert into user(`name`) values(#{name});
+	</insert>
+	<!-- 修改用户 -->
+	<update id="updateById" parameterType="user">
+		update user set name = #{name} where id = #{id};
+	</update>
+</mapper>
