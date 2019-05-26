@@ -1,0 +1,6 @@
+2019-04-25 21:14:01.916 [restartedMain] INFO  com.gict.lottery.backend.LotteryBackendApplication - Starting LotteryBackendApplication on PC201904102127 with PID 5748 (started by Administrator in E:\javademo)
+2019-04-25 21:14:01.923 [restartedMain] DEBUG com.gict.lottery.backend.LotteryBackendApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-25 21:14:01.923 [restartedMain] INFO  com.gict.lottery.backend.LotteryBackendApplication - No active profile set, falling back to default profiles: default
+2019-04-25 23:59:18.782 [restartedMain] INFO  com.gict.lottery.backend.LotteryBackendApplication - Starting LotteryBackendApplication on PC201904102127 with PID 5160 (started by Administrator in E:\javademo)
+2019-04-25 23:59:18.786 [restartedMain] DEBUG com.gict.lottery.backend.LotteryBackendApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-04-25 23:59:18.786 [restartedMain] INFO  com.gict.lottery.backend.LotteryBackendApplication - No active profile set, falling back to default profiles: default

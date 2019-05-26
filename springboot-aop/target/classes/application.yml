@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:
+  mvc:
+    view:
+      suffix: .html
+  resources:
+    static-locations: classpath:static
+  aop:
+    proxy-target-class: true
+logging:
+  config: classpath:logback.xml
+  path: /workspace/log
